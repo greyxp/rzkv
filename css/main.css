@@ -11,6 +11,10 @@ body {
   background-color: #a5a5ff;
   // -webkit-animation: fadeInOut 60s infinite;
 }
+
+a {
+    line-height: 2.4;
+}
 /* unvisited link */
 a:link {
   color: #a5a5ff;
@@ -55,7 +59,7 @@ a:active {
 
 h1 {
   display: block;
-  font-size: 3em;
+  font-size: 4.2em;
   margin: 0.6em 0;
   font-weight: bold;
 }
@@ -383,21 +387,21 @@ h1 {
 }
 
 //SCREEN
-body { 
+body {
       // background-color:#a0a0ff;
       padding:0;
       margin:0;
-      text-align:center; 
-      font-size:18px; 
+      text-align:center;
+      font-size:18px;
       color:#a0a0ff;
       text-transform:uppercase;}
 
 .screen {
       // background-color:#4040e0;
-      margin: 5% auto 0 auto; 
-      text-align:left; 
-      width:864px; 
-      height:540px; 
+      margin: 5% auto 0 auto;
+      text-align:left;
+      width:70%;
+      height:70%;
       padding:20px 2px 2px 2px;
       letter-spacing:2px;}
 
@@ -417,6 +421,5 @@ body {
       animation-timing-function: cubic-bezier(1,0,0,1);
       animation-duration: 1s;}
 
-@keyframes blinker { 
+@keyframes blinker {
   from { opacity: 1.0; } to { opacity: 0.0; }}
-
